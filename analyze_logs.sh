@@ -31,7 +31,7 @@ case $choice in
 esac
 
 if [ ! -f "$FILE" ]; then
-  echo "❌ Log file not found"
+  echo " Log file not found"
   exit 1
 fi
 
@@ -50,4 +50,4 @@ fi
   echo
 } >> "$REPORT"
 
-echo "✅ Analysis saved to $REPORT"
+echo "Analysis saved to $REPORT"
